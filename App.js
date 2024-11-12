@@ -102,7 +102,7 @@ const App = () => {
             onValueChange={(value) => handleAnswerChange(value, 0)}
         />
         <Question
-            text="What animal is this?"
+            text="What animal is this heh?"
             image={require('./img/leopard.jpg')}
             options={["Leopard", "Tiger", "Lion"]}
             selectedOption={answers[1]}
